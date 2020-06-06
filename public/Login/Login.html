@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../Css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+      <div class="menu-bar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+      <li><a href="../About/About.html">About</a></li>
+      <li><a href="../Contact/Contact.html">Contact</a></li>
+      <li><a href="../Shop/Shop.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Shop</a></li>
+      <li><a href="../SignUp/SignUp.html">Sign Up</a></li>
+      <li><a href="../Login/Login.html">Login</a></li>
+      
+      </ul>
+      </div>
+     
+
+    
+    
+    <form action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="../img/lg.jpg" alt="Avatar" id="newlog">
+        
+      </div>
+     
+      <div id="newhead"><h2 >Login Form</h2></div>
+      <div class="container form">
+        
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    
+    </body>
+    </html>
+    

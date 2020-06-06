@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="../Css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="menu-bar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+        
+        <li><a href="../About/About.html">About</a></li>
+        <li><a href="../Contact/Contact.html">Contact</a></li>
+        <li><a href="../Shop/Shop.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Shop</a></li>
+        <li><a href="../SignUp/SignUp.html">Sign Up</a></li>
+        <li><a href="../Login/Login.html">Log In</a></li>
+        
+        </ul>
+        </div>
+       
+  
+      
+      
+      <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="../img/lg.jpg" alt="Avatar" id="newlog">
+          
+        </div>
+        <div id="about"><h1>Contact Us</h2>
+        </div>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+          <div class="map">
+          <iframe src="https://www.google.com/maps/dir/24.9435179,66.9868871/bmj+address/@24.9033726,66.990423,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3eb33f555a1bfc1d:0x67b2b32773c986a4!2m2!1d67.0130104!2d24.8596617">
+            Google Map Location
+          </iframe>
+        </div>
+
+    </body>
+</html>            
